@@ -1,11 +1,9 @@
-/*  global setting */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* global styling */
 html,
 body {
   font-family: 'Courier New', Courier, monospace;
