@@ -1,0 +1,171 @@
+/*  global setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+html,
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px;
+}
+#navbar {
+  background: #082032;
+  overflow: auto;
+  color: #fff;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul li a:hover {
+  background: #334756;
+  color: #ff4c29;
+}
+#navbar ul li a.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#web {
+  font-family: 'Courier New', Courier, monospace ;
+}
+
+#hero {
+  background: url("../image/beach.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+#hero .hero-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 350px;
+}
+#hero .hero-content h1 {
+  font-size: 60px;
+}
+.primary-text {
+  color: #f0f0cb;
+}
+#hero .hero-content p {
+  padding: 10px;
+  line-height: 1.5em;
+  margin: auto;
+  max-width: 1000px;
+  overflow: auto; 
+}
+.text-lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #9797978c;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+#about {
+  height: 300px;
+}
+#about p {
+  line-height: 1.5em;
+}
+#about h2 {
+  color: #ffb740;
+}
+#about i { 
+  margin-bottom: 10px;
+}
+#about p {
+  line-height: 1.5em;
+  font-size: 13px;
+}
+#about .content-1, 
+#about .content-2, 
+#about .content-3 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about a.c-btn {
+  color: #082032;
+}
+#about a.c-btn:hover { 
+   color: #ffb740;
+}
+#testimonials { 
+  background: url("../image/beach2.jpg") no-repeat center center/cover;
+  height: 600px;
+  overflow: hidden;
+}
+#testimonials .testimonial img {
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.row {
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 600px;
+  z-index: 2;
+}
+#testimonials .lead-head {
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+#testimonials .testimonial {
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 1.2em;
+}
+footer { 
+  background: #082032;
+  height: 50px;
+  overflow: auto;
+}
+#footer {
+  color: #fff;
+  text-align: center;
+}
